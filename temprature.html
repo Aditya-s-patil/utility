@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            unitconvetor
+        </title>
+        <link rel="stylesheet" href="temprature.css">
+    </head>
+    <body>
+        <div class="grid-box">
+            <div>
+                <form class="test">
+                    Input: 
+                    <input type="number" id="input" class="input1" ><br>
+                    <label for="unit">Choose a unit:</label>
+                    <select name="unit" id="unit" class="select">
+                        <option value="null1">null</option>
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                        <option value="Fahrenheit">Fahrenheit</option>
+                    </select>
+                    <br><br> 
+                    
+               </form>
+            </div>
+            <div>
+                <form class="test">
+                    Output: <input  type="number" id="Output" class="input1" readonly="readonly" ><br>
+                    <label for="unit">Choose a unit:</label>
+                    <select name="unit" id="unit2" class="select">
+                        <option value="null1">null</option>
+                        <option value="celsius1">Celsius</option>
+                        <option value="Kelvin1">Kelvin</option>
+                        <option value="Fahrenheit1">Fahrenheit</option>
+                    </select>
+                    <br><br> 
+                    
+               </form>
+            </div>
+        </div>
+        
+          <table id="table" hidden>
+            <tr>
+              <th>Unit</th>
+              <th>value</th>
+            </tr>
+            <tr>
+                <td>Celsius</td>
+                <td id="Celsius"></td>
+              </tr>
+              <tr>
+                <td>Kelvin</td>
+                <td id="Kelvin"></td>
+              </tr>
+              <tr>
+                <td>Fahrenheit</td>
+                <td id="Fahrenheit"></td>
+              </tr>
+              
+          </table>
+          
+    <script src='temprature.js'></script>
+     <script src=""></script>
+     <script src=""></script>    
+    </body>
+</html>

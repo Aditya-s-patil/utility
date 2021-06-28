@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+            unitconvetor
+        </title>
+        <link rel="stylesheet" href="weight.css">
+    </head>
+    <body>
+        <div class="grid-box">
+            <div>
+                <form class="test">
+                    Input: <input type="number" id="input" class="input1"><br>
+                    <label for="unit">Choose a unit:</label>
+                    <select name="unit" id="unit"class="select">
+                        <option value="null1">select</option>
+                        <option value="KiloGram">KiloGram</option>
+                        <option value="Gram">Gram</option>
+                        <option value="Ounce">Ounce</option>
+                        <option value="Pounds">Pounds</option>
+                    </select>
+                    <br><br> 
+                    
+               </form>
+            </div>
+            <div>
+                <form class="test">
+                    Output: <input  type="number" id="Output" class="input1" readonly="readonly" ><br>
+                    <label for="unit">Choose a unit:</label>
+                    <select name="unit" id="unit2" class="select">
+                        <option value="null1">select</option>
+                        <option value="KiloGram1">KiloGram</option>
+                        <option value="Gram1">Gram</option>
+                        <option value="Ounce1">Ounce</option>
+                        <option value="Pounds1">Pounds</option>
+                    </select>
+                    <br><br> 
+                    
+               </form>
+            </div>
+        </div>
+          <table id="table" hidden>
+            <tr>
+              <th>Unit</th>
+              <th>value</th>
+            </tr>
+            <tr>
+                <td>KiloGram</td>
+                <td id="KiloGram"></td>
+              </tr>
+              <tr>
+                <td>Gram</td>
+                <td id="Gram"></td>
+              </tr>
+              <tr>
+                <td>Ounce</td>
+                <td id="Ounce"></td>
+              </tr>
+              <tr>
+                <td>Pounds</td>
+                <td id="Pounds"></td>
+              </tr>
+              
+          </table>
+          
+    <script src='weight.js'></script>  
+    </body>
+</html>

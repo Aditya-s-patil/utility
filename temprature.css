@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(31, 30, 30);
+  }
+  .grid-box{
+      display: grid;
+      grid-template-columns: auto auto;
+      margin-left: 500px;
+      margin-right:200px;
+      margin-top:60px ;
+      width: 500px;
+  }
+  table {
+      
+     
+      margin-left:570px;
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 500px;
+    }
+    td, th {
+      border: 1px solid #0e0d0d;
+      text-align: left;
+      padding: 5px;
+    }
+    
+    tr{
+      background-color: #dddddd;
+    }
+  .click{
+    margin-left: 650px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    letter-spacing: 2px;
+  }  
+  .test{
+    color:white;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+  }
+  .input1{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 60px;
+  }
+select{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 75%;
+  }
