@@ -4,7 +4,7 @@ body{
  @media screen and (max-width:980px) {
      body{
          background-color: rgb(29, 28, 28);
-         user-zoom: no;
+         zoom: block;
      }
  }
  .head{
