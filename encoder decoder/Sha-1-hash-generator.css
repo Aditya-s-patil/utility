@@ -55,8 +55,8 @@ body{
 @media screen and (max-width:980px) {
     .encode-textbox{
         margin-top: 20px;
-        height: 400px;
-        width: 600px;
+        height: 300px;
+        width: 800px;
         resize: none;
         box-shadow: 4px 4px 4px 4px rgb(33, 129, 3);
     }
@@ -69,8 +69,8 @@ body{
 }
 @media screen and (max-width:980px) {
     .decode-textbox{
-        height: 400px;
-        width: 600px;
+        height: 300px;
+        width: 800px;
         resize: none;
         box-shadow: 4px 4px 4px 4px rgb(134, 25, 9);
     }
