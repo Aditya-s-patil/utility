@@ -1,7 +1,7 @@
 unit2.onchange=()=>{
     table.style.display="block"
     if(unit.value==="Centimeter"&& unit2.value==="Kilometer1"){
-        output.value=input.value*100000
+        output.value=input.value
         cm.innerHTML= input.value
         km.innerHTML= input.value*0.00001
         m.innerHTML=input.value*0.01

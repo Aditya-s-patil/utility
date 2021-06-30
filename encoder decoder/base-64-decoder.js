@@ -6,6 +6,5 @@ input_decoder.style.display="none"
 btn.onclick = function a() {const url = input_encoder.value;
     var decodedString = atob(url);
     input_decoder.style.display="block"
-    input_decoder.style("align-self",'center')
     input_decoder.value=decodedString;
 }

@@ -1,10 +1,10 @@
 const unit= document.querySelector('#unit')
 const unit2= document.querySelector('#unit2')
 const output= document.querySelector('#output')
-const input= document.querySelector('.input1')
+const input= document.querySelector('.input')
 const convert= document.querySelector('#convert')
 const cm=document.querySelector('#cm')
-const km= document.querySelector('#km')vk[]
+const km= document.querySelector('#km')
 const m= document.querySelector('#m')
 const Millimeter= document.querySelector('#Millimeter')
 const yad= document.querySelector('#yad')

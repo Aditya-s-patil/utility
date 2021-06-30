@@ -58,8 +58,8 @@ input.addEventListener("keyup", function(event) {
             Celsius.innerHTML= (input.value-32)*0.5556
             Kelvin.innerHTML=((input.value-32)*0.5556)+273.15
             Fahrenheit.innerHTML=input.value
-        }else if(unit.value==="Fahrenheit"&& unit2.value==="celsius1"){
-            output.value=input.value*0.01
+        }else if(unit.value==="Fahrenheit"&& unit2.value==="Fahrenheit1"){
+            output.value=input.value
             Celsius.innerHTML= input.value-32*0.5556
             Kelvin.innerHTML=((input.value-32)*0.5556)+273.15
             Fahrenheit.innerHTML=input.value
@@ -122,8 +122,8 @@ unit2.onchange=()=>{
         Celsius.innerHTML= (input.value-32)*0.5556
         Kelvin.innerHTML=((input.value-32)*0.5556)+273.15
         Fahrenheit.innerHTML=input.value
-    }else if(unit.value==="Fahrenheit"&& unit2.value==="celsius1"){
-        output.value=input.value*0.01
+    }else if(unit.value==="Fahrenheit"&& unit2.value==="Fahrenheit1"){
+        output.value=input.value
         Celsius.innerHTML= input.value-32*0.5556
         Kelvin.innerHTML=((input.value-32)*0.5556)+273.15
         Fahrenheit.innerHTML=input.value
@@ -186,8 +186,8 @@ unit.onchange=()=>{
         Celsius.innerHTML= (input.value-32)*0.5556
         Kelvin.innerHTML=((input.value-32)*0.5556)+273.15
         Fahrenheit.innerHTML=input.value
-    }else if(unit.value==="Fahrenheit"&& unit2.value==="celsius1"){
-        output.value=input.value*0.01
+    }else if(unit.value==="Fahrenheit"&& unit2.value==="Fahrenheit1"){
+        output.value=input.value
         Celsius.innerHTML= input.value-32*0.5556
         Kelvin.innerHTML=((input.value-32)*0.5556)+273.15
         Fahrenheit.innerHTML=input.value
