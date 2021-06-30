@@ -3,7 +3,7 @@ body{
 }
 .box{
     margin-left: 450px;
-    margin-right: 500px;
+    margin-right: 450px;
     margin-top: 100;
     
     border-radius: 25px;
@@ -21,15 +21,29 @@ body{
         background-color: rgb(37, 37, 37);
         color: blanchedalmond;
         box-shadow: 4px 4px 16px 16px rgba(2, 252, 23, 0.2);
-        }
+    }
 }
 .button{
     background-color: black;
-        color: rgb(19, 177, 5);
-        margin: 10px;
-        width: 400px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 16px;
-        border: none;
+    color: rgb(19, 177, 5);
+    margin: 10px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border: none;
+}
+@media screen and (max-width:980px) {
+    .button{
+        background-color: black;
+            color: rgb(19, 177, 5);
+            margin: 10px;
+            width: 400px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 30px;
+            border: none;
+            height: 100px;
+    }
+    
 }
