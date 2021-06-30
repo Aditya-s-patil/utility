@@ -25,18 +25,19 @@ body{
 }
 .button{
     background-color: black;
-    color: rgb(19, 177, 5);
+    color: rgb(249, 250, 249);
     margin: 10px;
     width: 400px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 16px;
     border: none;
+    border-radius: 25px;
 }
 @media screen and (max-width:980px) {
     .button{
         background-color: black;
-            color: rgb(19, 177, 5);
+            color: rgb(239, 245, 238);
             margin: 10px;
             width: 400px;
             padding-top: 10px;
@@ -44,6 +45,9 @@ body{
             font-size: 30px;
             border: none;
             height: 100px;
+            border-radius: 25px;
+        
     }
     
 }
+.button:hover {background-color: rgb(4, 110, 30);}
