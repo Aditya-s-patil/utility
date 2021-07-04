@@ -9,6 +9,17 @@ body{
     margin-top:60px ;
     width: 500px;
 }
+@media screen and (max-width:980px) {
+  .grid-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 300px;
+    margin-right:300px;
+    margin-top:500px ;
+    width: 500px;
+}
+  
+}
 table {
     
    
