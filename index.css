@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(185, 182, 182);
 }
 .box{
     margin-left: 450px;
@@ -7,7 +7,7 @@ body{
     margin-top: 100;
     
     border-radius: 25px;
-    background-color: rgb(25, 25, 26);
+    background-color: rgb(43, 43, 48);
     text-align: center;
     color: rgb(250, 242, 242);
     box-shadow: 4px 4px 8px 8px rgba(2, 252, 23, 0.2);
@@ -18,7 +18,7 @@ body{
         margin-left: 200px;
         margin-right: 200px;
         border-radius: 25px;
-        background-color: rgb(37, 37, 37);
+        background-color: rgb(43, 43, 48);
         color: blanchedalmond;
         box-shadow: 4px 4px 16px 16px rgba(2, 252, 23, 0.2);
     }
