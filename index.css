@@ -18,6 +18,8 @@ body{
         margin-left: 200px;
         margin-right: 200px;
         border-radius: 25px;
+        padding-top:30px ;
+        padding-bottom: 30px;
         background-color: rgb(43, 43, 48);
         color: blanchedalmond;
         box-shadow: 4px 4px 16px 16px rgba(2, 252, 23, 0.2);
@@ -38,7 +40,7 @@ body{
     .button{
         background-color: black;
             color: rgb(239, 245, 238);
-            margin: 30px;
+            margin: 10px;
             width: 400px;
             padding-top: 10px;
             padding-bottom: 10px;
