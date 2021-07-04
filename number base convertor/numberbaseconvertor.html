@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+            Number Base convertor 
+        </title>
+        <link rel="stylesheet" href="numberbaseconvertor.css">
+    </head>
+    <body>
+        <div class="grid-box">
+            <div>
+                <form class="test">
+                    Input: <input  type="number" class="input" ><br><br>
+                    <label for="unit">Choose a unit:</label>
+                    <select name="unit" id="unit" class="select">
+                        <option value="Binary">Binary</option>
+                        <option value="Decimal">Decimal</option>
+                        <option value="Hex">Hex</option>
+                        <option value="Octal">Octal</option>
+                    </select>
+                  </form>
+            </div>
+            <div>
+                <form class="test">
+                    Output: <input  type="number" id="Output" class="output1" readonly="readonly"><br><br>
+                    <label for="unit">Choose a unit:</label>
+                    <select name="unit" id="unit2" class="select">
+                        <option value="Binary1">Binary</option>
+                        <option value="Decimal1">Decimal</option>
+                        <option value="Hex1">Hex</option>
+                        <option value="Octal1">Octal</option>
+                    </select>
+                    <br><br> 
+                    
+               </form>
+            </div>
+        </div>
+          <table id="table" hidden>
+            <tr>
+              <th>Unit</th>
+              <th>value</th>
+            </tr>
+              <td>Binary</td>
+              <td id="binary"></td>
+            </tr>
+            <tr>
+              <td>Decimal</td>
+              <td id="decimal"></td>
+            </tr>
+            <tr>
+              <td>Hex</td>
+              <td id="hex"></td>
+            </tr>
+            <tr>
+                <td>Octal</td>
+                <td id="octal"></td>
+              </tr>
+          </table>
+          
+    <script src="numberbaseconvertor.js"></script>    
+    </body>
+</html>
