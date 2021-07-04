@@ -56,7 +56,7 @@ table {
     table {
     
    
-      margin-left:350px;
+      margin-left:300px;
       margin-right: 300px;
       font-family: arial, sans-serif;
       border-collapse: collapse;
@@ -68,7 +68,14 @@ table {
     text-align: left;
     padding: 5px;
   }
-  
+@media screen and (max-width:980px) {
+  td, th {
+    border: 1px solid #0e0d0d;
+    text-align: left;
+    padding: 5px;
+    font-size: 25px;
+  }
+}  
   tr{
     background-color: #dddddd;
   }
