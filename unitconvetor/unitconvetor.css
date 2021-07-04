@@ -27,24 +27,27 @@ body{
 }
 .button{
     background-color: black;
-        color: rgb(252, 253, 252);
-        margin: 10px;
-        width: 400px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 20px;
-        border: none;
+    color: rgb(249, 250, 249);
+    margin: 10px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
 }
 @media screen and (max-width:980px) {
     .button{
         background-color: black;
-            color: rgb(252, 253, 252);
+            color: rgb(239, 245, 238);
             margin: 10px;
             width: 400px;
             padding-top: 10px;
             padding-bottom: 10px;
-            font-size: 25px;
+            font-size: 30px;
             border: none;
+            height: 100px;
+            border-radius: 25px;
     }
     
 }
