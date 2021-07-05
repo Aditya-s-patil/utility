@@ -79,21 +79,12 @@ body{
     tr{
       background-color: #dddddd;
     }
-  .click{
-    margin-left: 650px;
-    margin-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: aqua;
-    letter-spacing: 2px;
-  }  
   .test{
     color:white;
     letter-spacing: 1.5px;
     font-size: 20px;
     padding-left: 30px;
+    width: 100%;
   }
   .input1{
     margin-top: 8px;
