@@ -6,7 +6,7 @@ body {
   .navbar {
     overflow: hidden;
     background-color: #333; 
-    align-items: center;
+  
   }
   
   .navbar a {
@@ -17,7 +17,17 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+  @media screen and (max-width:980px) {
+    .navbar a {
+        float: left;
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+  }
   .subnav {
     float: left;
     overflow: hidden;
@@ -35,7 +45,18 @@ body {
     font-family: inherit;
     margin: 0;
   }
-  
+  @media screen and (max-width:980px) {
+    .subnav .subnavbtn {
+        font-size: 22px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+  }
   .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: red;
   }
@@ -64,5 +85,11 @@ body {
     display: block;
   }
 .home{
-    margin-left: 350px;
+    margin-left: 300px;
+}
+@media screen and (max-width:980px) {
+    .home{
+        margin-left:20px;
+    }
+    
 }
