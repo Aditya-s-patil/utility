@@ -7,7 +7,7 @@ body{
 }
 @media screen and (max-width:980px) {
     .head4{
-        margin-left: 270px;
+        margin-left: 290px;
         margin-top:270px;
         font-size: 40px;
     }
@@ -26,8 +26,8 @@ body{
 @media screen and (max-width:980px) {
     .box{
         margin-top: 50px;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 100px;
+        margin-right: 100px;
         border-radius: 25px;
         padding-top:30px ;
         padding-bottom: 30px;
@@ -52,7 +52,7 @@ body{
         background-color: black;
             color: rgb(239, 245, 238);
             margin: 10px;
-            width: 400px;
+            width: 600px;
             padding-top: 10px;
             padding-bottom: 10px;
             font-size: 30px;
