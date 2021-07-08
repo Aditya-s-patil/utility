@@ -2,7 +2,7 @@ body{
     background-color: rgb(185, 182, 182);
 }
 .head4{
-    margin-left: 600px;
+    margin-left: 520px;
     margin-top: 70px;
 }
 @media screen and (max-width:980px) {
@@ -15,7 +15,7 @@ body{
 .box{
     margin-left: 450px;
     margin-right: 450px;
-    margin-top: 30px;
+    
     
     border-radius: 25px;
     background-color: rgb(43, 43, 48);
