@@ -4,7 +4,7 @@ body{
   .grid-box{
       display: grid;
       grid-template-columns: auto auto;
-      margin-left: 500px;
+      margin-left: 350px;
       margin-right:200px;
       margin-top:60px ;
       width: 500px;
@@ -47,7 +47,7 @@ body{
   table {
       
      
-      margin-left:670px;
+      margin-left:570px;
       font-family: arial, sans-serif;
       border-collapse: collapse;
       width: 500px;
