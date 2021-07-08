@@ -3,7 +3,7 @@ body{
 }
 .head{
     margin-top: 30px;
-    margin-left: 600px;
+    margin-left: 500px;
     margin-right: 500px;
     color: white;
 }
@@ -19,7 +19,7 @@ body{
 .input-value1{
     width: 400px;
     height: 80px;
-    margin-left: 565px;
+    margin-left: 470px;
     margin-top: 20px;
 }
 @media screen and (max-width:980px) {
@@ -42,7 +42,7 @@ body{
   font-size: 16px;
   letter-spacing: 2px;
   cursor: pointer;
-  margin-left: 640px;
+  margin-left: 550px;
 }
 @media screen and (max-width:980px) {
     .btn-humantime{
@@ -61,7 +61,7 @@ body{
 }
 .result-humantime{
     font-size: 30px;
-    margin-left: 380px;
+    margin-left: 280px;
     color: white;
 }
 @media screen and (max-width:980px) {
@@ -72,7 +72,7 @@ body{
     }
 }
 .head2{
-    margin-left: 640px;
+    margin-left: 540px;
 
 }
 @media screen and (max-width:980px) {
@@ -100,6 +100,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     height: 50px;
+    width: 120px;
 }
 @media screen and (max-width:980px) {
     .input-value{
@@ -122,7 +123,7 @@ body{
       font-size: 16px;
       letter-spacing: 2px;
       cursor: pointer;
-      margin-left: 659px;
+      margin-left: 570px;
 }
 @media screen and (max-width:980px) {
     .btn-epoch{
@@ -141,7 +142,7 @@ body{
 }
 .result-epoch{
     font-size: 30px;
-    margin-left: 670px;
+    margin-left: 580px;
 }
 @media screen and (max-width:980px) {
     .result-epoch{
