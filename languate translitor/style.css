@@ -59,8 +59,8 @@ body{
     .container2{
         display: grid;
         grid-template-columns: auto;
-        margin-top: 90px;
-        margin-left: 110px;
+        margin-top: 40px;
+        margin-left: 10px;
         margin-right: 5px;
         padding-left: 80px;
         padding-right: 80px;
@@ -75,8 +75,8 @@ body{
 }
 @media screen and (max-width:980px) {
     .input{
-        height: 200px;
-        width: 600px;
+        height: 300px;
+        width: 800px;
         resize: none;
         box-shadow: 4px 4px 4px 4px rgb(33, 129, 3);
         font-size: 30px;
@@ -108,7 +108,7 @@ body{
       font-size: 30px;
       letter-spacing: 2px;
       cursor: pointer;
-      margin-left: 200px;
+      margin-left: 300px;
       margin-bottom: 40px;
     }
 }
@@ -121,8 +121,8 @@ body{
 }
 @media screen and (max-width:980px) {
     .out{
-        height: 200px;
-             width: 600px;
+        height: 300px;
+             width: 800px;
              resize: none;
              box-shadow: 4px 4px 4px 4px rgb(134, 25, 9);
              font-size: 30px;
