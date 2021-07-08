@@ -19,7 +19,7 @@ body{
         display: grid;
         grid-template-columns: auto auto;
         margin-top: 100px;
-        margin-left: 280px;
+        margin-left: 270px;
         margin-right: 100px;
     }
     
@@ -27,6 +27,12 @@ body{
 .dropdown-container{
     width: 100px;
     height: 60px;
+}
+@media screen and (max-width:980px) {
+    .dropdown-container{
+        width: 130px;
+        height: 90px;
+    }
 }
 .translator-input{
     width: 150px;
@@ -54,7 +60,7 @@ body{
         display: grid;
         grid-template-columns: auto;
         margin-top: 90px;
-        margin-left: 120px;
+        margin-left: 110px;
         margin-right: 5px;
         padding-left: 80px;
         padding-right: 80px;
@@ -102,7 +108,7 @@ body{
       font-size: 30px;
       letter-spacing: 2px;
       cursor: pointer;
-      margin-left: 210px;
+      margin-left: 200px;
       margin-bottom: 40px;
     }
 }
