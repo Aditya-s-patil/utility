@@ -3,7 +3,7 @@ body{
 }
 .stopwatch{
     font-size: 50px;
-    margin-left: 700px;
+    margin-left: 670px;
     margin-bottom: 1px;
     margin-right: 750px;
     color: white;
@@ -21,7 +21,7 @@ body{
 .grid{
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 540px;
+    margin-left: 500px;
     margin-right: 600px;
     padding-top: 50px;
     padding-left: 100px;
@@ -43,7 +43,7 @@ body{
 }
 .head{
     margin-top: 100px;
-    margin-left: 650px;
+    margin-left: 600px;
     
 }
 @media screen and (max-width:980px) {
