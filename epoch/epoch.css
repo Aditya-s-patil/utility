@@ -20,7 +20,6 @@ body{
     width: 400px;
     height: 80px;
     margin-left: 470px;
-    margin-top: 20px;
 }
 @media screen and (max-width:980px) {
     .input-value1{
@@ -86,6 +85,7 @@ body{
     grid-template-columns: auto auto auto auto auto auto auto;
     margin-left:10px ;
     margin-right: 10px;
+    margin-top: -30px;
 }
 @media screen and (max-width:980px) {
     .container{
