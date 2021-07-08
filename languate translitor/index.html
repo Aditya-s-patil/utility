@@ -1,20 +1,44 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Language translator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="/hedder/heder.css">
+    </head>
 <body>
-    <header>
-        <h2>Language Translator</h2>
+    <div class="navbar">
+        <a href="/index.html" class="home">Home</a>
+        <div class="subnav">
+          <button class="subnavbtn">Encode Decode <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="/encoder decoder/url_encoder-decoder.html">URL Encode & Decode</a>
+            <a href="/encoder decoder/base-64-encode.html">Base 64 Encode</a>
+            <a href="/encoder decoder/base-64-decoder.html">Base 64 Decode</a>
+            <a href="/encoder decoder/md5-hash-generator.html">MD5#</a>
+            <a href="/encoder decoder/Sha-1-hash-generator.html">Sha1#</a>
+            <a href="/encoder decoder/SHA-256 Hash Generator.html">Sha256#</a>
+            <a href="/encoder decoder/SHA-512 Hash Generator.html">Sha512#</a>
+            <a href="/encoder decoder/">Careers</a>
+          </div>
+        </div> 
+        <div class="subnav">
+          <button class="subnavbtn">Unit Convertor <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="/unitconvetor/length.html">Length</a>
+            <a href="/unitconvetor/weight.html">Weight</a>
+            <a href="/unitconvetor/temprature.html">Temprature</a>
+          </div>
+        </div> 
+        <a href="/string utility/stringutility.html">String Utility</a>
+        <a href="/rgb/rbg.html">RGB/HEX</a>
+        <a href="/number base convertor/numberbaseconvertor.html">Number Base</a>
+        </div>
+      </div>
+        <h1 class="head">Language Translator</h1>
     </div>
     <div class="container">
         <div class="dropdown-container">
               <select class="translator-input">
-                <option value="">Select The Language</option>
+                <option value="">From The Language</option>
                 <option value="en">English</option>
                 <option value="hi">Hindi</option>
                 <option value="it">Italian</option>
@@ -27,7 +51,7 @@
         </div> 
         <div class="dropdown-container">
             <select class="translator-output">
-                <option value="">Select The Language</option>
+                <option value="">To The Language</option>
                 <option value="en">English</option>
                 <option value="hi">Hindi</option>
                 <option value="it">Italian</option>
@@ -38,12 +62,12 @@
                 <option value="kn">Kannada</option>
             </select>              
         </div>
-        <button class="btn-translate">Translate</button>
     </div>
-    <div class="container">
-        <textarea rows="15" column="80" class="input"></textarea>
-    </div>
-    <p class="bubble speech result" hidden></p>
+    <div class="container2">
+        <div><textarea rows="15" column="80" class="input"></textarea><br>
+            <button class="btn-translate">Translate</button></div>
+            <div><textarea rows="15" column="80" class="out" hidden></textarea>
+            </div></div>
     <script src="translator.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@ transalte.addEventListener('click', () => {
     fetch(`https://api.mymemory.translated.net/get?q=`+inputValue.value+`&langpair=`+dropdown.value+'|'+dropdownOutput.value)
         .then((response) => response.json())
         .then((json) => {
-            document.querySelector('.result').removeAttribute('hidden');
-            document.querySelector('.result').innerHTML = json.responseData.translatedText;
+            document.querySelector('.out').removeAttribute('hidden');
+            document.querySelector('.out').value= json.responseData.translatedText;
     });
 });
