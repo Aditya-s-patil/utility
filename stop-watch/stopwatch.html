@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Epoch</title>
-    <link rel="stylesheet" href="/epoch/epoch.css">
-    <link rel="stylesheet" href="/hedder/heder.css"></head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="/stop-watch/time.css">
+    <link rel="stylesheet" href="/hedder/heder.css">
+    
+</head>
 <body>
   <div class="navbar">
     <a href="/index.html" class="home">Home</a>
@@ -41,32 +43,13 @@
 </div> 
     </div>
   </div>
-        <h1 class="head">TimeStamp Convertor</h1>
+        <h1 class="head">Stopwatch</h1>
     </div>
-    <div >
-        <input type="number" class="input-value1 epoch" placeholder="Enter a timestamp to convert">
+    <h2 class="stopwatch"></h2>
+    <div class="grid">
+        <div class="btn"><button class="btn-start">Start</button></div>
+        <div class="btn"><button class="btn-stop">Stop</button></div>
     </div>
-    <div class=>
-        <button class="btn-humantime">Convert Human Readable</button>
-    </div>
-    <h5 class="result-humantime"></h5>
-
-    <div>
-        <h1 class="head2">Epoch Convertor</h1>
-    </div>
-    <div class="container">
-        <div><input type="number" class="input-value year" placeholder="year"></div>
-        <div><input type="number" class="input-value month" placeholder="month"></div>
-        <div><input type="number" class="input-value date" placeholder="date"></div>
-        <div><input type="number" class="input-value hour" placeholder="hour"></div>
-        <div><input type="number" class="input-value minutes" placeholder="minutes"></div>
-        <div><input type="number" class="input-value seconds" placeholder="seconds"></div>
-        <div><input type="text" class="input-value timezone" placeholder="GMT"></div>
-    </div>
-    <div >
-        <button class="btn-epoch">Convert To Epoch</button>
-    </div>
-    <h5 class="result-epoch"></h5>
-    <script src="/epoch/epoch.js"></script>
+    <script src="/stop-watch/time.js"></script>
 </body>
 </html>

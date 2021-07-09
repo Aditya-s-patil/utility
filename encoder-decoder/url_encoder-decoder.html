@@ -1,7 +1,6 @@
 <html>
-    <head>
-        <title>Utility App</title>
-        <link rel="stylesheet" href="/unitconvetor/unitconvetor.css">
+    <title>url_encoder-decoder</title>
+    <head><link rel="stylesheet" href="/encoder-decoder/url_encoder-decoder.css">
         <link rel="stylesheet" href="/hedder/heder.css">
     </head>
     <body>
@@ -41,10 +40,12 @@
     </div> 
         </div>
       </div>
-        <div class="box">
-            <a href="length.html"><button class="button">length</button></a><br>
-            <a href="temprature.html"><button class="button">Temprature</button></a>
-            <a href="weight.html"><button class="button">weight</button></a>
+       <div class="head">URL Encoder & Decoder</div>
+        <div class="grid-container">
+       <div class="grid-items" > <textarea id="encoderq" class="encode-textbox" rows="20" placeholder="Enter Your URL Here"></textarea><br><button id="clickbtn1" class="encode">Encode</button></div>
+       <div class="grid-items"> <textarea id="decoderq" class="decode-textbox" rows="20" placeholder="Enter Your URL Here"></textarea><br><button id="clickbtn2" class="decode">Decode</button></div>
         </div>
+        <script src="/encoder-decoder/url-encoder-decoder.js"></script>
+        
     </body>
 </html>

@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(185, 182, 182);
+    background-color: 6A6B6C;
 }
 .head4{
     margin-left: 520px;
@@ -37,7 +37,7 @@ body{
     }
 }
 .button{
-    background-color: black;
+    background-color: 000000;
     color: rgb(249, 250, 249);
     margin: 10px;
     width: 400px;

@@ -1,9 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Epoch</title>
-    <link rel="stylesheet" href="/epoch/epoch.css">
-    <link rel="stylesheet" href="/hedder/heder.css"></head>
+    <title>Language translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/hedder/heder.css">
+    </head>
 <body>
   <div class="navbar">
     <a href="/index.html" class="home">Home</a>
@@ -41,32 +41,39 @@
 </div> 
     </div>
   </div>
-        <h1 class="head">TimeStamp Convertor</h1>
-    </div>
-    <div >
-        <input type="number" class="input-value1 epoch" placeholder="Enter a timestamp to convert">
-    </div>
-    <div class=>
-        <button class="btn-humantime">Convert Human Readable</button>
-    </div>
-    <h5 class="result-humantime"></h5>
-
-    <div>
-        <h1 class="head2">Epoch Convertor</h1>
+        <h1 class="head">Language Translator</h1>
     </div>
     <div class="container">
-        <div><input type="number" class="input-value year" placeholder="year"></div>
-        <div><input type="number" class="input-value month" placeholder="month"></div>
-        <div><input type="number" class="input-value date" placeholder="date"></div>
-        <div><input type="number" class="input-value hour" placeholder="hour"></div>
-        <div><input type="number" class="input-value minutes" placeholder="minutes"></div>
-        <div><input type="number" class="input-value seconds" placeholder="seconds"></div>
-        <div><input type="text" class="input-value timezone" placeholder="GMT"></div>
+        <div class="dropdown-container">
+              <select class="translator-input">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="it">Italian</option>
+                <option value="ar">Arabic</option>
+                <option value="ko">Korean</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="kn">Kannada</option>
+              </select>              
+        </div> 
+        <div class="dropdown-container">
+            <select class="translator-output">
+                <option value="hi">Hindi</option>
+                <option value="en">English</option>
+                <option value="it">Italian</option>
+                <option value="ar">Arabic</option>
+                <option value="ko">Korean</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="kn">Kannada</option>
+            </select>              
+        </div>
     </div>
-    <div >
-        <button class="btn-epoch">Convert To Epoch</button>
-    </div>
-    <h5 class="result-epoch"></h5>
-    <script src="/epoch/epoch.js"></script>
+    <div class="container2">
+        <div><textarea rows="15" column="80" class="input"></textarea><br>
+            <button class="btn-translate">Translate</button></div>
+            <div><textarea rows="15" column="80" class="out" hidden></textarea>
+            </div></div>
+    <script src="translator.js"></script>
 </body>
 </html>

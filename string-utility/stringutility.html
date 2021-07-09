@@ -1,8 +1,7 @@
 <html>
-    <head>
-        <title>Utility App</title>
-        <link rel="stylesheet" href="/unitconvetor/unitconvetor.css">
-        <link rel="stylesheet" href="/hedder/heder.css">
+    <title>String Utility</title>
+    <head><link rel="stylesheet" href="/string-utility/strig.css">
+    <link rel="stylesheet" href="/hedder/heder.css">
     </head>
     <body>
       <div class="navbar">
@@ -41,10 +40,21 @@
     </div> 
         </div>
       </div>
-        <div class="box">
-            <a href="length.html"><button class="button">length</button></a><br>
-            <a href="temprature.html"><button class="button">Temprature</button></a>
-            <a href="weight.html"><button class="button">weight</button></a>
+        <div class="head">String Utility</div>
+        <div class="place"> <p id="wordcount" class="count">Word Count :-</p>
+            <p id="charcount" class="count" >Character Count :-</p></div>
+       
+        <div class="grid-container">
+       <div class="grid-items" >
+         <textarea id="encoderq" class="encode-textbox" rows="20" placeholder="Enter Your URL Here"></textarea><br></div>
+       <div class="grid-items">
+         <textarea id="decoderq" class="decode-textbox" rows="20" placeholder="Enter Your URL Here"></textarea><br><br>
+        <lable for=unit class="count">Select Convertor  </lable> <select name="unit" id="unit"class="encode">
+            <option value="uppercase">Upper case</option>
+            <option value="lowercase">Lower care</option>
+            <option value="mirror">Mirror</option>
+        </select> </div>
         </div>
+        <script src="string.js"></script>        
     </body>
 </html>
