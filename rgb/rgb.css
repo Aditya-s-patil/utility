@@ -17,10 +17,12 @@
     
 }
 .result{
-    margin-left: 550px;
+    margin-left: 500px;
+    font-size: 30px;
 }
 @media screen and (max-width:980px) {
     .result{
+        font-size: 30px;
         margin-left: 280px;
         margin-right: 290px;
     }
@@ -79,3 +81,6 @@
       font-size: 30px;
       width: 150px;
   }
+  .increase{
+    font-size: 30px;
+    }
