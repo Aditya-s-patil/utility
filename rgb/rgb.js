@@ -13,11 +13,11 @@ submit.onclick=()=>{
   bluee = Number(blue.value).toString(16);
 
   if (reed.length == 1)
-    reed = "0" + r;
+    reed = "0" + reed;
   else if (greeen.length == 1)
-    greeen = "0" + g;
+    greeen = "0" + greeen;
   else if (bluee.length == 1)
-    bluee = "0" + b;
+    bluee = "0" + bbluee;
 
   var anns= "#" + reed + greeen + bluee;
   ans.value=anns
